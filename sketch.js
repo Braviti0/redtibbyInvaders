@@ -5,6 +5,8 @@ function preload() {
   
   // initialize interface
   interface = new Settings();
+
+  pixelDensity(1);
 }
 
 
