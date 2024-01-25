@@ -189,9 +189,11 @@ class Player {
     this.shield = this.maxShield;
     this.ammo = this.maxAmmo;
     
+    this.immortal = true;
+    this.immortalStart = -60 * 10; // player is immortal for about 5 seconds during start of game
+    
     this.lives -= 1;
   }
-  
   
   
   // upgradeSpaceship after levelUp
